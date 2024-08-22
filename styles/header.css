@@ -1,0 +1,43 @@
+header {
+  padding-block: 1rem;
+  display: grid;
+
+  font-family: "Roboto", sans-serif;
+
+  nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    padding-block: 1.2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 6rem;
+    transition: .2s;
+
+  }
+  
+  a:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid;
+    color: rgb(211, 93, 15);
+  }
+
+  .wrapper-logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+    gap: 3rem;
+  }
+
+  .logo {
+    height: 8rem;
+  }
+  
+}
+
+

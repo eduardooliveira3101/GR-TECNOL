@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.content {
+  max-width: 95rem;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body {
+  font-size: 1.6rem;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(125,44,0,1) 100%);
+  min-height: 100vh;
+}
+
+main {
+  padding: 2rem;
+  border: 1px solid #00000015;
+}
