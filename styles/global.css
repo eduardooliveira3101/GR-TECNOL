@@ -16,13 +16,9 @@
 }
 
 body {
-  font-size: 1.6rem;
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(125,44,0,1) 100%);
+  background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(125,44,0,1) 100%);
   min-height: 100vh;
-}
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-main {
-  padding: 2rem;
-  border: 1px solid #00000015;
 }
